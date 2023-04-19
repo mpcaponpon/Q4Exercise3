@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Arithmetic Operators</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	</head>
+<style type="text/css">
+	.body{
+		font-family: 'Chivo Mono', monospace;
+	}
+</style>
+<div class="conttainer" style="font-size:2em;">
+<body>
+	<h1 style="font-family:Chivo Mono;color:black;">
+		<span style="background-color:gray;">
+		JavaScript Arithmetic Operators</span></h1>
+<p><mark>a = 2, b = 4;</mark></p>
+<ol type="1.">
+
+	<li>a + b = <strong id="p1"></strong></li>
+	<li>b - a = <strong id="p2"></strong></li>
+	<li>a * b = <strong id="p3"></strong></li>
+	<li>b / a = <strong id="p4"></strong></li>
+	<li>a % 2 = <strong id="p4"></strong></li>
+
+</ol>
+
+<script>
+
+	let a=2, b=4;
+	let sum = a + b;
+
+	alert("The sum of two numbers: " + sum);
+
+	//variable declaration;assignment of values
+	document.getElementById("p1").innerHTML = a + b;
+	document.getElementById("p2").innerHTML = b - a;
+	document.getElementById("p3").innerHTML = a * b;
+	document.getElementById("p4").innerHTML = b / a;
+	document.getElementById("p5").innerHTML = a % 2;
+</script>
+</div>
+</body>
+</html>
